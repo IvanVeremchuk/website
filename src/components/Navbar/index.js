@@ -24,7 +24,7 @@ function Navbar() {
               </Link>
             </h1>
             <h1><a href="About" >ABOUT</a></h1>
-            <h1><a href="Resume">RESUME</a></h1>
+            <h1><a href="#Resume">RESUME</a></h1>
           </div>
           <Link className="nav-link   navigation-menu" to="/Welcome">
             <span className="nowrap-class">
