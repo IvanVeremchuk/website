@@ -8,7 +8,7 @@ import About from './pages/about.js';
 import Resume from './pages/resume.js';
 import ViewCaseStudies from './pages/view_case_studies.js';
 import JustForFun from './pages/just_for_fun.js';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
