@@ -18,13 +18,9 @@ function Navbar() {
           </label>
           <div class="navigation">
             <h1><a href="Welcome">IVAN VEREMCHUK | | WEB DEVELOPER</a></h1>
-            <h1>
-              <Link className={({ isActive }) => (isActive ? "nav-link-active" : "nav-link")} to="Work">
-                WORK
-              </Link>
-            </h1>
+            <h1><a href="Work">WORK</a></h1>
             <h1><a href="About" >ABOUT</a></h1>
-            <h1><a href="#Resume">RESUME</a></h1>
+            <h1><a href="Resume">RESUME</a></h1>
           </div>
           <Link className="nav-link   navigation-menu" to="/Welcome">
             <span className="nowrap-class">
