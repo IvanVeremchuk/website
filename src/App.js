@@ -22,6 +22,7 @@ function App() {
 	  	  <Route path='/resume' element={<Resume/>} />
         <Route path='/view_case_studies' element={<ViewCaseStudies/>} />
         <Route path='/just_for_fun' element={<JustForFun/>} />
+        <Route path='/yahoo' element={<Welcome/>} />
       </Routes>
       <Footer />
     </Router>

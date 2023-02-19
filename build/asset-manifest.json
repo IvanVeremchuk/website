@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/yahoo/static/css/main.6f393427.css",
+    "main.js": "/yahoo/static/js/main.7e4d5a48.js",
+    "static/js/787.eaccd7df.chunk.js": "/yahoo/static/js/787.eaccd7df.chunk.js",
+    "index.html": "/yahoo/index.html",
+    "main.6f393427.css.map": "/yahoo/static/css/main.6f393427.css.map",
+    "main.7e4d5a48.js.map": "/yahoo/static/js/main.7e4d5a48.js.map",
+    "787.eaccd7df.chunk.js.map": "/yahoo/static/js/787.eaccd7df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f393427.css",
+    "static/js/main.7e4d5a48.js"
+  ]
+}
