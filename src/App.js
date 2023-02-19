@@ -20,6 +20,9 @@ function App() {
 	  	  <Route path='/work' element={<Work/>} />
 	  	  <Route path='/about' element={<About/>} />
 	  	  <Route path='/resume' element={<Resume/>} />
+	  	  <Route path='/yahoo/work' element={<Work/>} />
+	  	  <Route path='/yahoo/about' element={<About/>} />
+	  	  <Route path='/yahoo/resume' element={<Resume/>} />
         <Route path='/view_case_studies' element={<ViewCaseStudies/>} />
         <Route path='/just_for_fun' element={<JustForFun/>} />
         <Route path='/yahoo' element={<Welcome/>} />
