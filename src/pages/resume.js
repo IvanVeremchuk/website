@@ -7,13 +7,13 @@ function Resume() {
         <>
             <div className="container-resume">
                 <div className='resume'>
-                    <a className='button-link' href="IvanVeremchukResume.pdf" download>
+                    <a className='button-link' href="https://github.com/IvanVeremchuk/portfolio/blob/main/src/pages/IvanVeremchukResume.pdf" download="IvanVeremchukResume.pdf">
                         Download PDF
                     </a>
-                    <a className='button-link' href="IvanVeremchukResume.docx" download>
+                    <a className='button-link' href="https://github.com/IvanVeremchuk/portfolio/blob/main/src/pages/IvanVeremchukResume.docx" download="IvanVeremchukResume.docx">
                         Download docx
                     </a>
-                    <a className='button-link' href="IvanVeremchukResume.txt" download>
+                    <a className='button-link' href="https://github.com/IvanVeremchuk/portfolio/blob/main/src/pages/IvanVeremchukResume.txt" download="IvanVeremchukResume.txt">
                         Download txt
                     </a>
                 </div>
