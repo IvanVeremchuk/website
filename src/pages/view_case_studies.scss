@@ -93,3 +93,35 @@ $font: 2.5rem;
   letter-spacing: 0em;
   margin: -0.15em;
 }
+
+@media screen and (max-width: 410px) {
+	.case{
+		min-width: 8em;
+	}
+  }
+
+
+@media screen and (max-width: 340px) {
+	.case{
+		min-width: 6em;
+	}
+  }
+
+
+@media screen and (max-width: 280px) {
+	.case{
+		min-width: 5em;
+	}
+  }
+
+  @media screen and (max-width: 240px) {
+	.case{
+		min-width: 10em;
+	}
+  }
+
+  @media screen and (max-width: 190px) {
+	.case{
+		min-width: 8em;
+	}
+  }

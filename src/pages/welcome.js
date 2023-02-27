@@ -10,8 +10,8 @@ function Welcome() {
       <div className="container-parent">
         <p className="mainly">
           I'm <span>Ivan Veremchuk</span> ,a<br/> 
-          <span> Web Developer</span> <br/>
-          in beautiful <span>Capua</span> 
+          <span> Software Engineer</span> <br/>
+          in beautiful <span>Toronto</span> 
         </p>
         <div className="break"></div>
         <Link className="box box-first-tag" to="/View_case_studies"><span class="fa-regular fa-eye fa-2xl"/><span class='separator prevent-select'>|</span><span>View <br/>Case Studies</span></Link>

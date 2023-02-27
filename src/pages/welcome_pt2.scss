@@ -16,6 +16,15 @@ $maxFont: 3rem;
 
 $font: 3rem;
 
+	// $baseline: 3rem;
+
+	// $minScreen: 50rem;
+	// $maxScreen: 125rem;
+	// $minFont: 2rem;
+	// $maxFont: 5rem;
+
+	// $font: 5rem;
+
 @mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
 	& {
 		@each $property in $properties {
@@ -82,4 +91,93 @@ $font: 3rem;
   }
 
 
-  
+@media screen and (max-width: 470px) and (min-width: 360px) {
+	// $baseline: 2.25rem;
+
+	// $minScreen: 30rem;
+	// $maxScreen: 75rem;
+	// $minFont: 1.2rem;
+	// $maxFont: 3rem;
+	
+	// $font: 3rem;
+	
+	$baseline: 3rem;
+
+	$minScreen: 50rem;
+	$maxScreen: 125rem;
+	$minFont: 2rem;
+	$maxFont: 5rem;
+
+	$font: 5rem;
+	
+	@mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
+		& {
+			@each $property in $properties {
+				#{$property}: $min-value;
+			}
+	
+			@media screen and (min-width: $min-vw) {
+				@each $property in $properties {
+					#{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+				}
+			}
+	
+			@media screen and (min-width: $max-vw) {
+				@each $property in $properties {
+					#{$property}: $max-value;
+				}
+			}
+		}
+	}
+	
+	@function strip-unit($value) {
+		@return $value / ($value * 0 + 1);
+	}
+	
+	.box{
+		@include fluid-type(font-size, $minScreen, $maxScreen, $minFont, $maxFont);
+		font-size: $font;
+		line-height: $font;
+	
+		line-height: 1.2;
+		border-radius: 3rem;
+	
+		display: flex;
+		white-space: nowrap;
+		outline: none;
+		text-decoration: none;
+		align-items: center;
+		border: 0.07em solid;
+		text-align: left;
+		color: #1c1c1c;
+		padding: 2em 0.5em 2em 0.5em;
+		margin:  0.2em;
+		gap: 0.5em;
+		min-width: 10em;
+		justify-content: center;
+	}
+	
+	
+	.box-first-tag {
+		border-color: #57d25c;
+	  }
+	  
+	.box-second-tag {
+		border-color: #de4bdc;
+	  }
+	
+	
+	.fa-eye {
+		color: #57d25c;
+	  }
+	  
+	.fa-wand-magic-sparkles {
+		color: #de4bdc;
+	  }
+}
+
+@media screen and (max-width: 360px) {
+	.box{
+		border-radius: 1em;
+	}
+}
