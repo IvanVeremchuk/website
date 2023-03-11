@@ -7,13 +7,13 @@ function Resume() {
         <>
             <div className="container-resume">
                 <div className='resume'>
-                    <a className='button-link' href="https://drive.google.com/file/d/1Pc86gVHtf2odtQdibM6Uit4vf2lVgbLz/view?usp=share_link" download="IvanVeremchukResume.pdf">
+                    <a className='button-link' href="https://drive.google.com/file/d/1M5geKwATnPEBa2oW1lE5DqQ-H9WULw6W/view?usp=sharing" download="IvanVeremchukResume.pdf">
                         Download PDF
                     </a>
-                    <a className='button-link' href="https://docs.google.com/document/d/1XsWN2X_BiBuZNz5y6DaZn9Gj15arW7Im/edit?usp=share_link&ouid=101388727716091087802&rtpof=true&sd=true" download="IvanVeremchukResume.docx">
+                    <a className='button-link' href="https://docs.google.com/document/d/19zcUQhyJZf0b5kIfLFJDqmQQnZICSigH/edit?usp=sharing&ouid=101388727716091087802&rtpof=true&sd=true" download="IvanVeremchukResume.docx">
                         Download docx
                     </a>
-                    <a className='button-link' href="https://drive.google.com/file/d/1YUREtgBg-WbV69iBd3hnMjs8T0KkHSZs/view?usp=share_link" download="IvanVeremchukResume.txt">
+                    <a className='button-link' href="https://drive.google.com/file/d/18CHOlzdgWoR_tR_oUDcVb8-VA7aq-H9K/view?usp=sharing" download="IvanVeremchukResume.txt">
                         Download txt
                     </a>
                 </div>
