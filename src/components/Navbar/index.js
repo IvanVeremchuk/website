@@ -60,7 +60,7 @@ function Navbar() {
               </a>
               <a
                 className="nav-link"
-                href="https://t.me/Ivan_w"
+                href="https://proton.me/mail"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -74,7 +74,7 @@ function Navbar() {
               >
                 <span class="fa-brands fa-linkedin-in fa-xl" />
               </a>
-              <a className="nav-link" href="href=mailto:ivanveremchukdev@gmail.com">
+              <a className="nav-link" href="href=mailto:eduard.ivan@proton.me">
                 <span class="fa-regular fa-envelope fa-xl" />
               </a>
             </div>
